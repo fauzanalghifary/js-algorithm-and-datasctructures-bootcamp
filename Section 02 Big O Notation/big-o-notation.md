@@ -21,3 +21,13 @@
 
 - Different machines will record different times
 - For fast algorithms, speed measurements may not be precise enough
+
+- Rather than counting seconds, LET'S count the NUMBER of simple operations the computer has to perform
+
+## Big O
+
+- how the runtime of an algorithm grows as the inputs grow
+
+- O(1) => No change
+- O(n) => Linear
+- O(n^2) => Quadratic
