@@ -1,4 +1,13 @@
-function collectStrings(obj) {}
+function collectStrings(obj, arr = []) {
+  for (let key in obj) {
+    if (typeof obj[key] === "object" && !Array.isArray(obj[key])) {
+      collectStrings(obj[key], arr);
+    } else if (typeof obj[key] === "string") {
+      arr.push(obj[key]);
+    }
+  }
+  return arr;
+}
 
 console.log(collectStrings({})); // []
 console.log(
