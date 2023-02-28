@@ -15,3 +15,15 @@
 - bubble sort
 - selection sort
 - insertion sort
+
+- those are simpler sorting algorithms
+- they don't perform as well as more advanced algorithms, but they are easier to understand
+
+## More Advanced Sorting Algorithm
+
+- merge sort
+- quick sort
+- radix sort
+
+- those are more advanced sorting algorithms
+- they are more complicated to implement, but they perform better than simpler algorithms
