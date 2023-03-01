@@ -7,9 +7,9 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 - find
 - findIndex
 
-- best: O(1)
-- average: O(n)
-- worst: O(n)
+- best: O(1) => Big O
+- average: O(n) => Big Theta
+- worst: O(n) => Big Omega
 
 ## Binary Search
 
