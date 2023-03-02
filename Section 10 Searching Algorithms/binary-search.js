@@ -18,6 +18,14 @@ const binarySearch = (array, num) => {
 };
 
 console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 5)); // 4
-console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 9)); // 8
-console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 1)); // 0
-console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 10)); // -1
+// console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 9)); // 8
+// console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 1)); // 0
+// console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 10)); // -1
+
+// Big O => O(log n)
+
+// input = 2 => 1 operasi
+// input = 4 => 2 operasi
+// input = 8 => 3 operasi
+// input = 16 => 4 operasi
+// input = 32 => 5 operasi
