@@ -38,8 +38,8 @@
 - smaller terms don't matter
   - O(n+10) => O(n)
   - O(1000n+50) => O(n)
-  - O(n^2 + 5n + 8) => O(n&2)
-- arithemetic operations are constant
+  - O(n^2 + 5n + 8) => O(n^2)
+- arithmetic operations are constant
 - variable assignment is constant
 - accessing elements in an array (by index) or object (by key) is constant
 - in a loop, the complexity is the length of the loop TIMES the complexity of whatever happens inside of the loop

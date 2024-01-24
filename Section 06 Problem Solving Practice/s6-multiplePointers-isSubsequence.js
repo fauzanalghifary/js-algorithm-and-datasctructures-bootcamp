@@ -1,15 +1,13 @@
 function isSubsequence(str1, str2) {
-  let index1 = 0;
+    let index1 = 0;
 
-  for (let i = 0; i < str2.length; i++) {
-    if (str2[i] === str1[index1]) {
-      index1++;
+    for (const element of str2) {
+        if (element === str1[index1]) {
+            index1++;
+        }
     }
-  }
 
-  //   if (index1 === str1.length) return true;
-  //   else return false;
-  return index1 === str1.length;
+    return index1 === str1.length;
 }
 
 console.log(isSubsequence("hello", "hello world")); // true

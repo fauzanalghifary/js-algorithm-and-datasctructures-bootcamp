@@ -1,14 +1,14 @@
 function areThereDuplicates(...args) {
-  let obj = {};
+    let obj = {};
 
-  for (let val of args) {
-    if (obj[val]) {
-      return true;
+    for (let val of args) {
+        if (obj[val]) {
+            return true;
+        }
+        obj[val] = "true";
     }
-    obj[val] = "true";
-  }
 
-  return false;
+    return false;
 }
 
 console.log(areThereDuplicates(1, 2, 3)); // false

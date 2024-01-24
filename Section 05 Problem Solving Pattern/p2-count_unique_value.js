@@ -1,18 +1,18 @@
 const countUniqueValues = (arr) => {
-  if (arr.length === 0) return 0;
+    if (arr.length === 0) return 0;
 
-  let count = 1;
-  let index = 0;
+    let count = 1;
+    let index = 0;
 
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] !== arr[index]) {
-      count++;
-      index = i;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] !== arr[index]) {
+            count++;
+            index = i;
+        }
     }
-  }
 
-  console.log(count);
-  return count;
+    console.log(count);
+    return count;
 };
 
 // count = 1; index = 0
