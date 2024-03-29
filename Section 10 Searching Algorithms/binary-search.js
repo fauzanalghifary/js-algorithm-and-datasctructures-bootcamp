@@ -24,8 +24,8 @@ console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 5)); // 4
 
 // Big O => O(log n)
 
-// input = 2 => 1 operasi
-// input = 4 => 2 operasi
-// input = 8 => 3 operasi
-// input = 16 => 4 operasi
-// input = 32 => 5 operasi
+// input = 2 => 1 operation
+// input = 4 => 2 operation
+// input = 8 => 3 operation
+// input = 16 => 4 operation
+// input = 32 => 5 operation

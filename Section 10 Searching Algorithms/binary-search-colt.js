@@ -1,5 +1,5 @@
 // Original Solution
-function binarySearch(arr, elem) {
+function binarySearchInitial(arr, elem) {
     let start = 0;
     let end = arr.length - 1;
     let middle = Math.floor((start + end) / 2);
