@@ -3,6 +3,10 @@ function takeShower() {
     return "Showering!";
 }
 
+function eatDinner() {
+    cookFood();
+}
+
 function eatBreakfast() {
     let meal = cookFood();
     console.log(`Eating ${meal}`);
@@ -18,6 +22,7 @@ function cookFood() {
 function wakeUp() {
     takeShower();
     eatBreakfast();
+    eatDinner();
     console.log("Ok ready to go to work!");
 }
 

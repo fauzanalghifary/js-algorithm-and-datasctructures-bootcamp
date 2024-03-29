@@ -4,3 +4,5 @@ function sumRange(num) {
 }
 
 console.log(sumRange(4));
+
+// sumRange(4) => 10
