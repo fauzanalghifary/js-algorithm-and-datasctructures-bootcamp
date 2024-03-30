@@ -31,8 +31,8 @@ function bubbleSort(arr) {
     return arr;
 }
 
-console.log(bubbleSort([8, 1]));
+console.log(bubbleSort([8, 1, 4]));
 
 // Big O => O(n^2)
-// input = 2 => 4 operasi
-// input = 3 => 9 operasi
+// input = 2 => 4 operation
+// input = 3 => 9 operation
