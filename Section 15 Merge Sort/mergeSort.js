@@ -44,15 +44,21 @@ mergeSort([10, 24, 76, 73]);
 
 // mergeSort([10, 24, 76, 73])
 // mid = 2
-// left = mergeSort(10, 24)
-// right = mergeSort(76, 73)
-// return merge(mergeSort(10, 24), mergeSort(76, 73))
+// left = mergeSort([10, 24])
+// right = mergeSort([76, 73])
+// return merge([10, 24], [73, 76]) => return [10, 24, 73, 76])
 
 // mergeSort([10, 24])
 // mid = 1
-// left = mergeSort(10) => [10]
-// right = mergeSort(24) => [24]
-// return merge([10], [24]) => [10, 24]
+// left = mergeSort([10])
+// right = mergeSort([24])
+// return merge([10], [24]) => return [10, 24]
+
+// mergeSort([10])
+// return [10]
+
+// mergeSort([24])
+// return [24]
 
 // mergeSort([76, 73])
 // mid = 1
